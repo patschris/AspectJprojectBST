@@ -9,5 +9,6 @@ very nice MOP/general compositional semantic extensibility facility for Java:
 - used entirely for interposing code, not changing how the object system works
 - AspectJ is a transparent extension of Java, comes with IDE support (for easier editing, inspection of aspect code)
 - Can declare members and supertypes for existing classes
-- Nice tool to add external functionality without changing the initial code itself, for instance test events, debugging methods etc
-Written in Java 1.8, Ubuntu 16.04.3 LTS. Contains makefile: make run to execute the program, make clean to remove .class files/
+- Nice tool to add external functionality without changing the initial code itself, for instance test events, debugging methods etc.
+
+Written in Java 1.8, Ubuntu 16.04.3 LTS. Contains makefile: make run to execute the program, make clean to remove class files.
