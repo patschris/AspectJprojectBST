@@ -1,6 +1,6 @@
 # Synchonize threads using AspectJ
-In this project, I use AspectJ to synchronize threads. I constructed a Binary Search Tree (BST) based on
-http://algorithms.tutorialhorizon.com/binary-search-tree-complete-implementation with some additions. Then, in my main function 
+In this project, I use AspectJ to synchronize threads. I constructed a Binary Search Tree (BST - see [[1]](
+http://algorithms.tutorialhorizon.com/binary-search-tree-complete-implementation)) with some additions. Then, in my main function 
 I created a number of threads that execute randomly a number of commands (insert, remove, lookup). The threads try to to access 
 simultaneously the BST, so we have to ensure that we don't read and write at the same time, but many threads can read the same
 content at the same time. We use AspectJ in Java with annotations (@before, @after) to synchronize the threads.
@@ -21,3 +21,6 @@ It's easy to install AspectJ on Ubuntu using just a simple command as follows:<b
 ## Makefile
 - `make run` to execute the program
 - `make clean` to remove class files.
+
+## References
+[1] http://algorithms.tutorialhorizon.com/binary-search-tree-complete-implementation 
